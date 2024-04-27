@@ -1,0 +1,36 @@
+application		#level 0
+  workbook		#level 1
+    wooksheet		#level 2
+    chart		#level 2
+    window		#level 2
+
+Q: how to refenecne an obj?
+A:
+Workbooks("a.xlsx").Worksheets("b").Range("C1")
+excel_file_name_a.xlsx.table_b.cells_C1
+
+Q: attribute of an object
+A:
+Range("A1").Value = 100
+cell_object.its_value_attribute assign to 100
+
+Q: how to use method of an obj?
+A:
+Range("A1:E5").Select
+object.Select_method
+
+Q: Range
+A: 
+Range("A10")
+Range("A1:E5")
+
+Q: Cells
+A
+Cell(2, 1)	#row_2 col_1
+Cell(2, "A")	#row_2 col_A which is col_1
+
+Input/Output scanf/printf
+--
+InputBox
+MsgBox
+

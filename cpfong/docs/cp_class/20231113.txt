@@ -1,0 +1,28 @@
+@eros_SSH-> cat -n p118.pl
+
+     1  #!/usr/bin/env perl
+     2
+     3  $_ = "yabba dabba doo";
+     4
+     5  if (/abba/){
+     6   print "match 1 \n";
+     7  }
+     8
+     9  if (/ab ba/){
+    10   print "match 2 \n";
+    11  }
+
+
+@eros_SSH-> cat p120.pl
+
+#!/usr/bin/env perl
+
+while (<STDIN>){
+ chomp;
+ if (/$ARGV[0]/){
+  print "\tmatch\n";
+ }
+ else {
+  print "\tUNmatch\n";
+ }
+}

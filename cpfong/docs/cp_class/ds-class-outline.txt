@@ -1,0 +1,12 @@
+Basic Concepts
+Arrays
+Stacks and queues: Application of Stacks: Infix, Postfix and Prefix Expressions
+Linked lists
+Recursive
+Trees
+Binary search tree
+Heap
+B-Tree
+Graphs
+Sorting
+Searching

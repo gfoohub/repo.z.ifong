@@ -1,0 +1,7 @@
+final project (final exam)
+--
+due: 2024/01/05 24:00
+server: eros.ifong.org
+dir: ~/final/
+file: myProject.zip and one word file describe your proj and learn from this class
+requirement: android studio program

@@ -1,0 +1,17 @@
+due: 2024/03/18 Mon 23:59
+obj: upload 1 file: hw2-SID-upload_date_time.txt to www.ifong.org ex: hw2-4b1g0099-20240330-1425.txt
+
+requirement: 
+A: plain text encoding with utf8 (word doc or big5 encoding will get less grade)
+A: 10 sentences from reading articles that you think is very good then translate those into chinese (should have both english and chinese)
+B: 10 new vocabulary and their english meaning
+
+1. file name wrong: less one grade
+2. text content is very important
+3. copied get F grade
+
+grade: 
+ 2024/03/13 11:59 most high grade if content is good enough
+ 2024/03/13 23:59 second grade if contnet is ok
+ 2024/03/16 23:59 best to third grade
+ 2024/03/18 23:59 4 grade

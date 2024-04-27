@@ -1,0 +1,8 @@
+Sub hello()
+	Dim s As String
+	s = InputBox("your name")
+	MsgBox ("hello " + s)
+
+	x=1
+	msgbox("now x = " & x) 'note: string concatenate use & instead of +
+End Sub

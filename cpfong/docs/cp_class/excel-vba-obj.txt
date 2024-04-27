@@ -1,0 +1,37 @@
+p164 4-1
+Application.Worksheets("Sheet1").Range("A1").value=100
+
+p167
+range("a1:a3").value=1
+range("b1:b5")=2
+
+p171
+dim ws as worksheet : set ws = worksheets("Sheet2")
+ws.delete	
+// delete sheet2, then warnning, to skip this warnning Application.DisplayAlerts = False
+
+p172
+// use Excel randbetween(1,1500) copy and paste
+// find > 1000 
+i.Interior.Color = vbRed
+Count = Count + 1
+
+worksheets
+p186
+// 
+worksheets(2)
+worksheets("Sheet2")
+worksheets(2).Name = "newSheet2"
+
+activate sheet
+p190
+worksheets(1).Activate
+worksheets(1).select
+
+range 
+p197
+range("a1:b1") = 2
+r_str = "c1:d1"	#set name for a range
+range(r_str)=3
+
+range("a1:b1, c1:d1").select

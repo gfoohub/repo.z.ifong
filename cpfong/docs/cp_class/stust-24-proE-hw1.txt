@@ -1,0 +1,15 @@
+due: 2024/02/28 Wed 23:59 extended to 2024/03/04 Wed 23:59
+obj: upload 3 files: hw1.mp3 hw1.txt hw1-screen-shot.jpg to www.ifong.org
+requirement: mp3 file should less than 1 minute english article
+
+grade: 
+ before 2024/02/23 23:59 highest A
+ 2024/02/24 - 2024/02/26 highest B
+ 2024/02/27 - 2024/02/28 highest C
+ 2024/02/29 - 2024/03/04 highest D
+ 2024/03/05 - F
+
+tip:
+1 sample.mp3 at https://www.ifong.org/cpfong/docs/img/foo.mp3
+2 Win+R / cmd / scp -P 8080 hw1.mp3 YourID@www.ifong.org:~
+3 Q:how to check? A: ssh -p 8080 YourID@www.ifong.org then ls

@@ -1,0 +1,13 @@
+Public Sub new_test()
+    Dim myr As Range
+    Set myr = Range("g2:g9")
+    
+    Count = 0
+    For Each xx In myr
+         If xx.Value >= 16000 Then
+                 Count = Count + 1
+         End If
+    Next
+    
+    MsgBox ("there are totoal " + Str(Count) + " greater then 16000")
+End Sub

@@ -1,0 +1,6 @@
+week1 & week2
+
+1. what will you learn from this class?
+2. introduction data structure
+3. what is perl, and why perl
+4. connect to server

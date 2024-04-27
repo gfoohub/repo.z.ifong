@@ -1,0 +1,4 @@
+quiz 50%
+mid 20%
+final 20%
+show 10% 2 late == 1 absent 

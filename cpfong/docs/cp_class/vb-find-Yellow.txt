@@ -1,0 +1,16 @@
+Sub findyellow()
+
+Dim dataset As Range
+
+ lastrow = Cells(Rows.Count, "A").End(xlUp).Row
+ dim r as range : set r = range("a1:c100")
+
+ For Each cell In r
+    If cell.Interior.Color = vbYellow Then
+#If cell.Interior.Color = RGB(1,2,3) Then
+        MsgBox "Please correct error in cell (" & cell.Row & " " & cell.Column & ")"
+        Exit Sub
+    End If
+ Next
+
+End Sub

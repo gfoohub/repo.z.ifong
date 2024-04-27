@@ -1,0 +1,12 @@
+Sub findg()
+    Dim r As Range
+    Set r = Range("a1:c10")
+    Count = 0
+    For Each i In r
+        If i = "g" Then
+            Count = Count + 1
+        End If
+    Next
+    MsgBox ("total green = " & Count)
+End Sub
+

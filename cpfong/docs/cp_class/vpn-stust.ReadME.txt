@@ -1,0 +1,8 @@
+# need to install a vpn connector to use stust vpn
+# https://vpn.stust.edu.tw (or vpn2 # same ip addr) will guide you to get this software
+# when visit https://vpn ... ask you input account :just key in userName is fine (without @stust.edu.tw), since this is school controled site
+# cisco anyConnect is used as stust vpn client
+# running anyConnect: 2 steps need to be done
+#  1 https://vpn.stust.edu.tw
+#  2 userName and PWD
+#done # now you are connected

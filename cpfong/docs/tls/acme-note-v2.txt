@@ -1,0 +1,52 @@
+i am acme-note-v2.txt and deride from acme-note.txt
+also check /home/cpfong/00bsd_my_doc/diary_migrate_hobby_project/how2-tech/2023.1008.acme.cpNote.txt
+
+--useME 20230912
+Use Name.com API
+https://github.com/acmesh-official/acme.sh/wiki/dnsapi#dns_namecom
+
+
+-- Depreciated (step0 is ok, step1 one as ref only)  
+step0 install (note: this is manual mode, depreciated. you should use dns api mode!!)
+-------------
+# acme.sh is not a package but its is a shell
+# right way to install acme.sh is as next line
+# NOTE: no matter where you are, acme will be ~/.acme (force to install here)
+ @eros_HOST-> curl https://get.acme.sh | sh -s email=cp@eros.ifong.org
+
+ 1. check ~/.profile
+ 2. check ~/.cshrc
+ 3. crontab of cpfong
+
+ [Sun Jun 26 00:42:38 UTC 2022] Installed to /home/cpfong/.acme.sh/acme.sh
+ [Sun Jun 26 00:42:38 UTC 2022] Installing alias to '/home/cpfong/.profile'
+ [Sun Jun 26 00:42:38 UTC 2022] Installing alias to '/home/cpfong/.cshrc'
+ [Sun Jun 26 00:42:38 UTC 2022] Installing cron job
+
+step1 get certificate (manual get it)
+-------------
+ # use acme create wildcard certificates of eros.ifong.org zone
+
+ eros_HOST-> ./acme.sh --issue -d eros.ifong.org --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please
+ [Tue Sep 12 18:03:45 CST 2023] The domain key is here: /home/cpfong/.acme.sh/eros.ifong.org_ecc/eros.ifong.org.key
+ [Tue Sep 12 18:03:49 CST 2023] Add the following TXT record:
+ [Tue Sep 12 18:03:49 CST 2023] Domain: '_acme-challenge.eros.ifong.org'
+ [Tue Sep 12 18:03:49 CST 2023] TXT value: 'DFFlVG2_AvE1ZU2-VOIzCbEYuiEbrhAcy9mJF14Laao'
+
+step2 # TXT into name.com
+-------------
+ goto name.com add TXT record for next step
+
+step3 #renew 
+-------------
+ # must DO this!! (--renew) it can last for 60days , after that you have to do it again
+ eros_HOST-> ./acme.sh --renew -d eros.ifong.org --yes-I-know-dns-manual-mode-enough-go-ahead-please
+
+ [Tue Sep 12 18:08:19 CST 2023] Cert success.
+ -----BEGIN CERTIFICATE-----
+MIIEADCCA4WgAwIBAgIQSWQsgaoIUni+6LnIp4HwkTAKBggqhkjOPQQDAzBLMQsw
+CQYDVQQGEwJBVDEQMA4GA1UEChMHWmVyb1NTTDEqMCgGA1UEAxMhWmVyb1NTTCBF
+....
+-----END CERTIFICATE-----
+[Tue Sep 12 18:08:19 CST 2023] Your cert is in: /home/cpfong/.acme.sh/eros.ifong.org_ecc/eros.ifong.org.cer
+[Tue Sep 12 18:08:19 CST 2023] Your cert key is in: /home/cpfong/.acme.sh/eros.ifong.org_ecc/eros.ifong.org.key

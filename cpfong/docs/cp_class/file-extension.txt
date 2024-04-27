@@ -1,0 +1,10 @@
+txt
+csv
+xls
+xlsx
+doc
+docx
+ppt
+jpg
+bmp
+...

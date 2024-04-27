@@ -1,0 +1,17 @@
+A exam
+--
+quiz 50%
+midterm exam 15%
+final exam 15%
+
+B project
+--
+mid proj 5%
+final proj 5%
+proj group: 2 persons unless you cannot find one
+requirement: 3 minuites conversation, upload all text and mp4 to server
+
+C show up
+--
+show up 10% 
+note: 2 late == 1 absent

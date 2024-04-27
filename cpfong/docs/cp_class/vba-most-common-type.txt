@@ -1,0 +1,12 @@
+x=1 		: msgbox(vartype(x)) 'vbInteger  2 Integer
+x=2.3 		: msgbox(vartype(x)) 'vbDouble 5 Double-precision floating-poin
+x=#2023/1/1# 	: msgbox(vartype(x)) 'vbDate 7 Date value
+x="2023/1/1" 	: msgbox(vartype(x)) 'vbString 8 String
+x=1.23@ 	: msgbox(vartype(x)) 'vbCurrency  6 Currency value
+
+
+Integer		%
+Long		&
+Date		#
+Currency	@
+String		$

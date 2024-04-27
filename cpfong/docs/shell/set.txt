@@ -1,0 +1,13 @@
+set - Set or unset values of shell options and positional parameters.
+
+Set command: It is used to set or unset specific flags and settings( determines the behavior of the script and helps in executing the tasks without any issue.) inside the shell environment. It can be used to change or display the shell attributes and parameters. 
+
+a double-dash is a syntax used in shell commands to signify end of command options and beginning of positional arguments.
+A double-dashed shell command is used to mark the end of options and disable further processing.
+
+set -- cmd a b c
+echo $0 $1 $2
+
+$ list='this is a test'
+$ set -- $list
+$ printf "$1"	# this

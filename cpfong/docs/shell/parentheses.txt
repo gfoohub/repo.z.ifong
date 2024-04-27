@@ -1,0 +1,3 @@
+function return value use ex:
+
+which_week_from_1st_week_of_this_year=$(date +%W)

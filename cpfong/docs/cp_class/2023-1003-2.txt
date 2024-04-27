@@ -1,0 +1,10 @@
+Public Sub new_test3()
+    Dim r As Range
+    Set r = Range("b7:d9")
+    
+    For Each i In r
+        If (i.Value < 60) Then
+            i.Font.Color = vbRed
+        End If
+    Next
+End Sub

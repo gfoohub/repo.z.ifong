@@ -1,0 +1,2 @@
+Red Pin Icon --> destination
+Roght Arrow Inside a Box --> routing

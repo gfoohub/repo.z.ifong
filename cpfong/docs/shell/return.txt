@@ -1,0 +1,4 @@
+use $() with a function call to get the return value of the function
+
+$ date +%W
+$ expr $(date +%W) % 2		#must incall $() to get date return values

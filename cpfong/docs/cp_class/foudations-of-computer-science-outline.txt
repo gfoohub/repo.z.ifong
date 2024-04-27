@@ -1,0 +1,20 @@
+1 Introduction
+2 Number Systems
+3 Data Storage
+4 Operations on Data
+5 Computer Organization
+6 Computer Networks and Internet
+7 Operating Systems
+8 Algorithms
+9 Programming Languages
+10 Software Engineering
+11 Data Structure
+12 Abstract Data Types
+13 File Structure
+14 Databases
+15 Data Compression
+16 Security
+17 Theory of Computation
+18 Artificial Intelligence
+19 Introduction to Social Media
+20 Social and Ethical Issues

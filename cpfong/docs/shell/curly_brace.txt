@@ -1,0 +1,7 @@
+curly braces or curly bracket 
+--
+{} are used for command grouping or multitudes of types of parameter expansion or brace expansion or sequence expansion.
+
+$ long_string_var_a=1
+$ printf "%s" ${long_string_var_a}	#1
+

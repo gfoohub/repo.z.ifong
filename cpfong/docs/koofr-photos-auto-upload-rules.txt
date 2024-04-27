@@ -1,0 +1,6 @@
+0 photos all has time tag
+1 as year
+2 will not upload photos already there (at koofr)
+3 will not delete old photos at koofr
+4 only upload newer photos
+5 you delete at koofr (20240101.jpg) manually. Even though 20240101.jpg still exits at iphone, will NOT be uploaded. Becuase it is already upload once 

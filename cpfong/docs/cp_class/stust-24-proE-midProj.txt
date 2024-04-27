@@ -1,0 +1,9 @@
+due: 2024/04/30 23:59
+obj: upload 2 files: finalProj-oral-4b1g0099.txt finalProj-movie-4b1g0099.mp4 to www.ifong.org 
+note: no mp4 means no final present!
+
+requirement: 
+A: plain text
+B: mp4 should get from any movie
+C: mp4 length should be exactly the time you want to say (at least 1 minute, and less than 3 minutes for each person)
+D: write movie name into your text file (chinese ,english or both)

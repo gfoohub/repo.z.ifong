@@ -1,0 +1,40 @@
+test is [ 			#man test
+
+#these 2 has NO diff
+root@www:/usr/local/www/apache24/data/cpfong/docs/shell # diff /bin/test /bin/[
+
+root@www:/usr/local/www/apache24/data/cpfong/docs/shell # type [
+[ is a shell builtin
+
+This means that '[' is actually a program, just like ls and other programs, so it must be surrounded by spaces:
+if [$foo = "bar" ] will not work;
+
+# in /bin/sh
+$ a=1;test $a -eq 1
+
+$ x=1; test $x -eq 1; echo $?		#0 ok, no error and means $x is 1
+$ x=2; test $x -eq 1; echo $?		#1 error, true. ERROR and $x is NOT 1
+
+NOTE: no return value of function test, test use $? as his ret; and 0 is no error, 1 is ERROR, however [ is different
+$ test 1 -eq 1 && echo "equal"		#equal
+$ [ 1 -eq 1 ]  && echo "euqal"		#equal
+
+
+# && means "and". We can read the whole line as an if statement. If exist.sh is true —that is, exit code 0—then execute the echo command
+# you CANNOT view $? is 1 then next, you should take "when $? equal 0" mean no error and TRUE, and goto next stage
+
+test 100 -gt 99 && printf "100>99\n" || printf "less"
+
+test -e filename
+echo $?  --> 0 for exists (ok, no error), and 1 for does NOT exist (fail)
+
+test 
+-e FILE 	FILE exists
+-s FILE 	FILE exists and has a size greater than zero
+-n FILE		FILE nonzero length
+
+if [ $var -eq 5 ]; then
+ printf "var is 5"
+fi
+
+test $var -eq 5 && printf "var is 5" || printf "not equal"

@@ -1,0 +1,8 @@
+# stust cc call it cloud desktop
+# obj: give you a VM (win7 or win10) with installed apps
+# get software from https://view.stust.edu.tw just like vpn
+# choose install VMWare Horizon Client
+# run vpn then Horizon # vpn must be run 1st 
+# 1st time run Horizon you need to add a server view.stust.edu.tw
+# connect to server and input your userName PWD just like vpn
+# 3 os (win7-SPSS w10-Adobe win7-cloudOpen)

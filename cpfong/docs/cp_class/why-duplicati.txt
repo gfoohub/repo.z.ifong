@@ -1,0 +1,7 @@
+0. koofr is only a space, you need app to do the backup easily (whole files on windows is quite a lot, you do NOT want to do it one by one)
+1. backup all files on pc to web Drive
+2. it can scheduling
+3. need installed, however it use localhost:8200 ( use web UI, unlike other app, it has no self GUI and there is NO app it will install into your pc )
+
+Duplicati works with standard protocols like FTP, SSH, and WebDAV, as well as popular services like 
+Backblaze B2, Storj, Microsoft OneDrive, Amazon S3, Google Drive, box.com, Mega, and many others.

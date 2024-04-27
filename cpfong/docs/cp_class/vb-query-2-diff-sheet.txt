@@ -1,0 +1,12 @@
+Sub Basic_Web_Query()
+
+sid = 2912
+sid = 2330
+ym = 20230801
+
+Dim connectionString As String
+connectionString = "URL;https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY_AVG?date=" & ym & "&stockNo=" & sid & "&response=html"
+
+Worksheets(3).Select 'use table 3
+
+With ActiveSheet.QueryTables.Add(Connection:=connectionString, Destination:=Range("$A$1"))

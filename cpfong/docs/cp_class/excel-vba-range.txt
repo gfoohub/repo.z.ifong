@@ -1,0 +1,15 @@
+range("a1:b2", "c1:d2").select
+range("a:a")=1
+range("1:1")=2
+range("a1").offset(4,0)=500 #y,x
+
+debug.print range("a1").End(xlUp).Address # xlDown, xlToLeft, xlToRight
+range("a1").End(xlDown).Value=100 #set last elements of a1 to 100
+
+range("a1").select
+selection.copy
+range("b1").select
+activesheet.paste
+
+range("a1").copy range("c1")
+

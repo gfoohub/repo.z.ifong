@@ -1,0 +1,7 @@
+https://www.duplicati.com
+
+1. with koofr acc and duplicati installed
+2. after installed, duplicati will put an icon on desktop
+3. running it will open browser then http://localhost:8200/ngax/index.html
+4. add a backup
+5. WebDAV protocol as destination

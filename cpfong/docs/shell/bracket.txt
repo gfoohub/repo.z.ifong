@@ -1,0 +1,4 @@
+[ is test
+check man [
+
+[ 1 -eq 2 ] && echo "1 equal 2" || echo "1 is not equal 2"

@@ -1,0 +1,10 @@
+The tr command is a UNIX command-line utility for translating or deleting characters
+
+basic form
+--
+tr set1 set2		#translate set1 into set2
+tr -d 'W'		#delete char W, and delete is a special case, so use option d
+tr 'a-z' 'A-Z'		#range translate
+tr -s ' '		#compress spaces into 1 space
+tr -d -c '0-9'		#remove un-digits (keep digits). you can think this way: -d is delete, why add -c in? it is a reverese of it, still delete but delete un-digits
+tr -d '[:punct:]'	#remove punctation chars

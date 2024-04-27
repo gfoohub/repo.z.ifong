@@ -1,0 +1,9 @@
+expr: evaluate expression
+
+$ expr 5 + 2		#note: MUST have spaces
+
+$ expr 5 + 2		#7
+$ 5 + 2			#sh: 5: not found
+$ expr 39 % 2		#1
+
+$ date +%W		#week number of year ie 00..53
